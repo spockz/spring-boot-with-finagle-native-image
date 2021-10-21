@@ -46,8 +46,7 @@
   "allDeclaredFields":true,
   "allDeclaredMethods":true,
   "allPublicMethods":true,
-  "allDeclaredConstructors":true,
-  "fields":[{"name":"CGLIB$FACTORY_DATA"}]
+  "allDeclaredConstructors":true
 },
 {
   "name":"com.example.demo.DemoApplication$$EnhancerBySpringCGLIB$$116dd0ee",
@@ -71,12 +70,34 @@
   "allDeclaredConstructors":true
 },
 {
+  "name":"com.example.demo.DemoApplication$$EnhancerBySpringCGLIB$$dcdb7be4",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allPublicMethods":true,
+  "allDeclaredConstructors":true
+},
+{
+  "name":"com.example.demo.DemoApplication$$EnhancerBySpringCGLIB$$dcdb7be4$$FastClassBySpringCGLIB$$3199fd7d",
+  "methods":[{"name":"<init>","parameterTypes":["java.lang.Class"] }]
+},
+{
+  "name":"com.example.demo.DemoApplication$$FastClassBySpringCGLIB$$a3c43c93",
+  "methods":[{"name":"<init>","parameterTypes":["java.lang.Class"] }]
+},
+{
   "name":"com.example.demo.DemoApplicationTests",
   "allDeclaredFields":true,
   "allDeclaredMethods":true,
   "allPublicMethods":true,
   "allDeclaredConstructors":true,
   "allDeclaredClasses":true
+},
+{
+  "name":"com.example.demo.GreetingController",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allPublicMethods":true,
+  "allDeclaredConstructors":true
 },
 {
   "name":"com.fasterxml.jackson.core.JsonGenerator"
@@ -153,17 +174,288 @@
   "allPublicMethods":true
 },
 {
+  "name":"com.github.benmanes.caffeine.cache.BLCHeader$DrainStatusRef",
+  "fields":[{"name":"drainStatus"}]
+},
+{
+  "name":"com.github.benmanes.caffeine.cache.BaseMpscLinkedArrayQueueColdProducerFields",
+  "fields":[{"name":"producerLimit"}]
+},
+{
+  "name":"com.github.benmanes.caffeine.cache.BaseMpscLinkedArrayQueueConsumerFields",
+  "fields":[{"name":"consumerIndex"}]
+},
+{
+  "name":"com.github.benmanes.caffeine.cache.BaseMpscLinkedArrayQueueProducerFields",
+  "fields":[{"name":"producerIndex"}]
+},
+{
+  "name":"com.github.benmanes.caffeine.cache.CacheLoader",
+  "methods":[{"name":"loadAll","parameterTypes":["java.lang.Iterable"] }]
+},
+{
   "name":"com.github.benmanes.caffeine.cache.Caffeine"
+},
+{
+  "name":"com.github.benmanes.caffeine.cache.PS",
+  "fields":[
+    {"name":"key"}, 
+    {"name":"value"}
+  ]
+},
+{
+  "name":"com.github.benmanes.caffeine.cache.PSMS",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"com.github.benmanes.caffeine.cache.SSSMS",
+  "methods":[{"name":"<init>","parameterTypes":["com.github.benmanes.caffeine.cache.Caffeine","com.github.benmanes.caffeine.cache.CacheLoader","boolean"] }]
+},
+{
+  "name":"com.github.benmanes.caffeine.cache.StripedBuffer",
+  "fields":[{"name":"tableBusy"}]
 },
 {
   "name":"com.sun.org.apache.xalan.internal.xsltc.trax.TransformerFactoryImpl",
   "methods":[{"name":"<init>","parameterTypes":[] }]
 },
 {
+  "name":"com.twitter.finagle.FactoryToService",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allPublicMethods":true
+},
+{
+  "name":"com.twitter.finagle.FactoryToService$Enabled",
+  "allDeclaredFields":true
+},
+{
+  "name":"com.twitter.finagle.FixedInetResolver$$anon$2",
+  "methods":[{"name":"loadAll","parameterTypes":["java.lang.Iterable"] }]
+},
+{
+  "name":"com.twitter.finagle.Service",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allPublicMethods":true
+},
+{
+  "name":"com.twitter.finagle.client.AddrMetadataExtraction$AddrMetadata",
+  "allDeclaredFields":true
+},
+{
+  "name":"com.twitter.finagle.client.LatencyCompensation$Compensation",
+  "allDeclaredFields":true
+},
+{
+  "name":"com.twitter.finagle.client.LatencyCompensation$Compensator",
+  "allDeclaredFields":true
+},
+{
+  "name":"com.twitter.finagle.client.StatsScoping$Scoper",
+  "allDeclaredFields":true
+},
+{
+  "name":"com.twitter.finagle.client.Transporter$EndpointAddr",
+  "allDeclaredFields":true
+},
+{
+  "name":"com.twitter.finagle.factory.TimeoutFactory$Param",
+  "allDeclaredFields":true
+},
+{
+  "name":"com.twitter.finagle.filter.NackAdmissionFilter$Param$Configured",
+  "allDeclaredFields":true
+},
+{
+  "name":"com.twitter.finagle.liveness.FailureAccrualFactory$Param$Configured",
+  "allDeclaredFields":true
+},
+{
+  "name":"com.twitter.finagle.loadbalancer.LoadBalancerFactory$AddressOrdering",
+  "allDeclaredFields":true
+},
+{
+  "name":"com.twitter.finagle.loadbalancer.LoadBalancerFactory$Dest",
+  "allDeclaredFields":true
+},
+{
+  "name":"com.twitter.finagle.loadbalancer.LoadBalancerFactory$ErrorLabel",
+  "allDeclaredFields":true
+},
+{
+  "name":"com.twitter.finagle.loadbalancer.LoadBalancerFactory$HostStats",
+  "allDeclaredFields":true
+},
+{
+  "name":"com.twitter.finagle.loadbalancer.LoadBalancerFactory$Param",
+  "allDeclaredFields":true
+},
+{
+  "name":"com.twitter.finagle.loadbalancer.LoadBalancerFactory$WhenNoNodesOpenParam",
+  "allDeclaredFields":true
+},
+{
+  "name":"com.twitter.finagle.loadbalancer.aperture.EagerConnectionsType$",
+  "allDeclaredFields":true,
+  "allPublicMethods":true
+},
+{
+  "name":"com.twitter.finagle.naming.BindingFactory$BaseDtab",
+  "allDeclaredFields":true
+},
+{
+  "name":"com.twitter.finagle.naming.BindingFactory$Dest",
+  "allDeclaredFields":true
+},
+{
+  "name":"com.twitter.finagle.netty4.Netty4HashedWheelTimer",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"com.twitter.finagle.netty4.Netty4Init",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"com.twitter.finagle.param.ExceptionStatsHandler",
+  "allDeclaredFields":true
+},
+{
+  "name":"com.twitter.finagle.param.HighResTimer",
+  "allDeclaredFields":true
+},
+{
+  "name":"com.twitter.finagle.param.Label",
+  "allDeclaredFields":true
+},
+{
+  "name":"com.twitter.finagle.param.MetricBuilders",
+  "allDeclaredFields":true
+},
+{
+  "name":"com.twitter.finagle.param.Monitor",
+  "allDeclaredFields":true
+},
+{
+  "name":"com.twitter.finagle.param.ProtocolLibrary",
+  "allDeclaredFields":true
+},
+{
+  "name":"com.twitter.finagle.param.Reporter",
+  "allDeclaredFields":true
+},
+{
+  "name":"com.twitter.finagle.param.ResponseClassifier",
+  "allDeclaredFields":true
+},
+{
+  "name":"com.twitter.finagle.param.StandardStats",
+  "allDeclaredFields":true
+},
+{
+  "name":"com.twitter.finagle.param.Stats",
+  "allDeclaredFields":true
+},
+{
+  "name":"com.twitter.finagle.param.Timer",
+  "allDeclaredFields":true
+},
+{
+  "name":"com.twitter.finagle.param.Tracer",
+  "allDeclaredFields":true
+},
+{
+  "name":"com.twitter.finagle.service.ExpiringService$Param",
+  "allDeclaredFields":true
+},
+{
+  "name":"com.twitter.finagle.service.FailFastFactory$FailFast",
+  "allDeclaredFields":true
+},
+{
+  "name":"com.twitter.finagle.service.PendingRequestFilter$Param",
+  "allDeclaredFields":true
+},
+{
+  "name":"com.twitter.finagle.service.Retries$Budget",
+  "allDeclaredFields":true
+},
+{
+  "name":"com.twitter.finagle.service.StatsFilter$Now",
+  "allDeclaredFields":true
+},
+{
+  "name":"com.twitter.finagle.service.StatsFilter$Param",
+  "allDeclaredFields":true
+},
+{
+  "name":"com.twitter.finagle.service.TimeoutFilter$PropagateDeadlines",
+  "allDeclaredFields":true
+},
+{
+  "name":"com.twitter.finagle.transport.Transport$ClientSsl",
+  "allDeclaredFields":true
+},
+{
+  "name":"com.twitter.util.Closable",
+  "allDeclaredMethods":true,
+  "allPublicMethods":true
+},
+{
+  "name":"com.twitter.util.Closable[]"
+},
+{
+  "name":"com.twitter.util.Promise",
+  "fields":[{"name":"state"}]
+},
+{
+  "name":"com.twitter.util.Promise$DetachableFuture",
+  "fields":[{"name":"alreadyDetached"}]
+},
+{
+  "name":"io.netty.buffer.AbstractByteBufAllocator",
+  "allDeclaredMethods":true
+},
+{
   "name":"io.netty.buffer.PooledByteBufAllocator"
 },
 {
+  "name":"io.netty.channel.DefaultFileRegion"
+},
+{
+  "name":"io.netty.channel.epoll.NativeDatagramPacketArray$NativeDatagramPacket"
+},
+{
+  "name":"io.netty.channel.unix.DatagramSocketAddress"
+},
+{
+  "name":"io.netty.channel.unix.DomainDatagramSocketAddress"
+},
+{
+  "name":"io.netty.channel.unix.PeerCredentials"
+},
+{
+  "name":"io.netty.util.AbstractReferenceCounted",
+  "fields":[{"name":"refCnt"}]
+},
+{
   "name":"io.netty.util.NettyRuntime"
+},
+{
+  "name":"io.netty.util.internal.NativeLibraryUtil",
+  "methods":[{"name":"loadLibrary","parameterTypes":["java.lang.String","boolean"] }]
+},
+{
+  "name":"io.netty.util.internal.shaded.org.jctools.queues.BaseMpscLinkedArrayQueueColdProducerFields",
+  "fields":[{"name":"producerLimit"}]
+},
+{
+  "name":"io.netty.util.internal.shaded.org.jctools.queues.BaseMpscLinkedArrayQueueConsumerFields",
+  "fields":[{"name":"consumerIndex"}]
+},
+{
+  "name":"io.netty.util.internal.shaded.org.jctools.queues.BaseMpscLinkedArrayQueueProducerFields",
+  "fields":[{"name":"producerIndex"}]
 },
 {
   "name":"java.beans.PropertyVetoException"
@@ -173,7 +465,13 @@
   "methods":[{"name":"toPath","parameterTypes":[] }]
 },
 {
+  "name":"java.io.FileDescriptor"
+},
+{
   "name":"java.io.FilePermission"
+},
+{
+  "name":"java.io.IOException"
 },
 {
   "name":"java.io.Serializable",
@@ -205,7 +503,40 @@
   ]
 },
 {
+  "name":"java.lang.ClassLoader$ByteBuddyAccessor$3innoENl",
+  "methods":[
+    {"name":"defineClass","parameterTypes":["java.lang.ClassLoader","java.lang.String","byte[]","int","int","java.security.ProtectionDomain"] }, 
+    {"name":"definePackage","parameterTypes":["java.lang.ClassLoader","java.lang.String","java.lang.String","java.lang.String","java.lang.String","java.lang.String","java.lang.String","java.lang.String","java.net.URL"] }, 
+    {"name":"findLoadedClass","parameterTypes":["java.lang.ClassLoader","java.lang.String"] }, 
+    {"name":"getClassLoadingLock","parameterTypes":["java.lang.ClassLoader","java.lang.String"] }, 
+    {"name":"getDefinedPackage","parameterTypes":["java.lang.ClassLoader","java.lang.String"] }, 
+    {"name":"getPackage","parameterTypes":["java.lang.ClassLoader","java.lang.String"] }
+  ]
+},
+{
+  "name":"java.lang.ClassLoader$ByteBuddyAccessor$DVmc0vZB",
+  "methods":[
+    {"name":"defineClass","parameterTypes":["java.lang.ClassLoader","java.lang.String","byte[]","int","int","java.security.ProtectionDomain"] }, 
+    {"name":"definePackage","parameterTypes":["java.lang.ClassLoader","java.lang.String","java.lang.String","java.lang.String","java.lang.String","java.lang.String","java.lang.String","java.lang.String","java.net.URL"] }, 
+    {"name":"findLoadedClass","parameterTypes":["java.lang.ClassLoader","java.lang.String"] }, 
+    {"name":"getClassLoadingLock","parameterTypes":["java.lang.ClassLoader","java.lang.String"] }, 
+    {"name":"getDefinedPackage","parameterTypes":["java.lang.ClassLoader","java.lang.String"] }, 
+    {"name":"getPackage","parameterTypes":["java.lang.ClassLoader","java.lang.String"] }
+  ]
+},
+{
   "name":"java.lang.ClassLoader$ByteBuddyAccessor$P2Qr41cs",
+  "methods":[
+    {"name":"defineClass","parameterTypes":["java.lang.ClassLoader","java.lang.String","byte[]","int","int","java.security.ProtectionDomain"] }, 
+    {"name":"definePackage","parameterTypes":["java.lang.ClassLoader","java.lang.String","java.lang.String","java.lang.String","java.lang.String","java.lang.String","java.lang.String","java.lang.String","java.net.URL"] }, 
+    {"name":"findLoadedClass","parameterTypes":["java.lang.ClassLoader","java.lang.String"] }, 
+    {"name":"getClassLoadingLock","parameterTypes":["java.lang.ClassLoader","java.lang.String"] }, 
+    {"name":"getDefinedPackage","parameterTypes":["java.lang.ClassLoader","java.lang.String"] }, 
+    {"name":"getPackage","parameterTypes":["java.lang.ClassLoader","java.lang.String"] }
+  ]
+},
+{
+  "name":"java.lang.ClassLoader$ByteBuddyAccessor$PANGHFQC",
   "methods":[
     {"name":"defineClass","parameterTypes":["java.lang.ClassLoader","java.lang.String","byte[]","int","int","java.security.ProtectionDomain"] }, 
     {"name":"definePackage","parameterTypes":["java.lang.ClassLoader","java.lang.String","java.lang.String","java.lang.String","java.lang.String","java.lang.String","java.lang.String","java.lang.String","java.net.URL"] }, 
@@ -228,6 +559,28 @@
 },
 {
   "name":"java.lang.ClassLoader$ByteBuddyAccessor$e4TXDGIa",
+  "methods":[
+    {"name":"defineClass","parameterTypes":["java.lang.ClassLoader","java.lang.String","byte[]","int","int","java.security.ProtectionDomain"] }, 
+    {"name":"definePackage","parameterTypes":["java.lang.ClassLoader","java.lang.String","java.lang.String","java.lang.String","java.lang.String","java.lang.String","java.lang.String","java.lang.String","java.net.URL"] }, 
+    {"name":"findLoadedClass","parameterTypes":["java.lang.ClassLoader","java.lang.String"] }, 
+    {"name":"getClassLoadingLock","parameterTypes":["java.lang.ClassLoader","java.lang.String"] }, 
+    {"name":"getDefinedPackage","parameterTypes":["java.lang.ClassLoader","java.lang.String"] }, 
+    {"name":"getPackage","parameterTypes":["java.lang.ClassLoader","java.lang.String"] }
+  ]
+},
+{
+  "name":"java.lang.ClassLoader$ByteBuddyAccessor$uyrjBqzD",
+  "methods":[
+    {"name":"defineClass","parameterTypes":["java.lang.ClassLoader","java.lang.String","byte[]","int","int","java.security.ProtectionDomain"] }, 
+    {"name":"definePackage","parameterTypes":["java.lang.ClassLoader","java.lang.String","java.lang.String","java.lang.String","java.lang.String","java.lang.String","java.lang.String","java.lang.String","java.net.URL"] }, 
+    {"name":"findLoadedClass","parameterTypes":["java.lang.ClassLoader","java.lang.String"] }, 
+    {"name":"getClassLoadingLock","parameterTypes":["java.lang.ClassLoader","java.lang.String"] }, 
+    {"name":"getDefinedPackage","parameterTypes":["java.lang.ClassLoader","java.lang.String"] }, 
+    {"name":"getPackage","parameterTypes":["java.lang.ClassLoader","java.lang.String"] }
+  ]
+},
+{
+  "name":"java.lang.ClassLoader$ByteBuddyAccessor$w2wTGpiB",
   "methods":[
     {"name":"defineClass","parameterTypes":["java.lang.ClassLoader","java.lang.String","byte[]","int","int","java.security.ProtectionDomain"] }, 
     {"name":"definePackage","parameterTypes":["java.lang.ClassLoader","java.lang.String","java.lang.String","java.lang.String","java.lang.String","java.lang.String","java.lang.String","java.lang.String","java.net.URL"] }, 
@@ -274,9 +627,13 @@
 },
 {
   "name":"java.lang.Object",
+  "allDeclaredFields":true,
   "allDeclaredMethods":true,
   "allPublicMethods":true,
   "allDeclaredConstructors":true
+},
+{
+  "name":"java.lang.OutOfMemoryError"
 },
 {
   "name":"java.lang.Runtime",
@@ -287,6 +644,9 @@
   "methods":[{"name":"major","parameterTypes":[] }]
 },
 {
+  "name":"java.lang.RuntimeException"
+},
+{
   "name":"java.lang.RuntimePermission"
 },
 {
@@ -295,6 +655,13 @@
 },
 {
   "name":"java.lang.String[]"
+},
+{
+  "name":"java.lang.String[][]"
+},
+{
+  "name":"java.lang.Thread",
+  "fields":[{"name":"threadLocalRandomProbe"}]
 },
 {
   "name":"java.lang.annotation.Documented",
@@ -332,6 +699,10 @@
   "methods":[{"name":"defineClass","parameterTypes":["byte[]"] }]
 },
 {
+  "name":"java.lang.invoke.VarHandle",
+  "methods":[{"name":"releaseFence","parameterTypes":[] }]
+},
+{
   "name":"java.lang.management.ManagementFactory",
   "methods":[{"name":"getRuntimeMXBean","parameterTypes":[] }]
 },
@@ -366,12 +737,18 @@
   "methods":[{"name":"getAnnotatedType","parameterTypes":[] }]
 },
 {
+  "name":"java.lang.reflect.Field[]"
+},
+{
   "name":"java.lang.reflect.GenericDeclaration",
   "allPublicMethods":true
 },
 {
   "name":"java.lang.reflect.Method",
   "methods":[{"name":"getAnnotatedReturnType","parameterTypes":[] }]
+},
+{
+  "name":"java.lang.reflect.Method[]"
 },
 {
   "name":"java.lang.reflect.Parameter",
@@ -386,7 +763,13 @@
   "allPublicMethods":true
 },
 {
+  "name":"java.net.InetSocketAddress"
+},
+{
   "name":"java.net.NetPermission"
+},
+{
+  "name":"java.net.PortUnreachableException"
 },
 {
   "name":"java.net.SocketPermission"
@@ -394,6 +777,9 @@
 {
   "name":"java.net.URLPermission",
   "methods":[{"name":"<init>","parameterTypes":["java.lang.String","java.lang.String"] }]
+},
+{
+  "name":"java.net.URL[]"
 },
 {
   "name":"java.nio.Bits",
@@ -410,6 +796,12 @@
 {
   "name":"java.nio.DirectByteBuffer",
   "methods":[{"name":"<init>","parameterTypes":["long","int"] }]
+},
+{
+  "name":"java.nio.channels.ClosedChannelException"
+},
+{
+  "name":"java.nio.channels.FileChannel"
 },
 {
   "name":"java.nio.file.CopyOption"
@@ -429,6 +821,12 @@
 },
 {
   "name":"java.security.AllPermission"
+},
+{
+  "name":"java.security.MessageDigestSpi"
+},
+{
+  "name":"java.security.SecureRandomParameters"
 },
 {
   "name":"java.security.SecurityPermission"
@@ -979,6 +1377,18 @@
   "allDeclaredConstructors":true
 },
 {
+  "name":"org.springframework.boot.autoconfigure.http.codec.CodecsAutoConfiguration$DefaultCodecsConfiguration$$Lambda$1150/0x0000000840647840",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allPublicMethods":true
+},
+{
+  "name":"org.springframework.boot.autoconfigure.http.codec.CodecsAutoConfiguration$DefaultCodecsConfiguration$$Lambda$1152/0x0000000840663040",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allPublicMethods":true
+},
+{
   "name":"org.springframework.boot.autoconfigure.http.codec.CodecsAutoConfiguration$DefaultCodecsConfiguration$$Lambda$774/0x00000008403a1c40",
   "allDeclaredFields":true,
   "allDeclaredMethods":true,
@@ -1002,6 +1412,18 @@
   "allDeclaredMethods":true,
   "allPublicMethods":true,
   "allDeclaredConstructors":true
+},
+{
+  "name":"org.springframework.boot.autoconfigure.http.codec.CodecsAutoConfiguration$JacksonCodecConfiguration$$Lambda$1151/0x0000000840646c40",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allPublicMethods":true
+},
+{
+  "name":"org.springframework.boot.autoconfigure.http.codec.CodecsAutoConfiguration$JacksonCodecConfiguration$$Lambda$1153/0x0000000840664440",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allPublicMethods":true
 },
 {
   "name":"org.springframework.boot.autoconfigure.http.codec.CodecsAutoConfiguration$JacksonCodecConfiguration$$Lambda$775/0x00000008403b0040",
@@ -1576,6 +1998,10 @@
   "name":"org.springframework.boot.context.config.ConfigDataLocation[]"
 },
 {
+  "name":"org.springframework.boot.context.config.ConfigDataProperties",
+  "allDeclaredConstructors":true
+},
+{
   "name":"org.springframework.boot.context.config.ConfigTreeConfigDataLoader",
   "allDeclaredConstructors":true
 },
@@ -1639,6 +2065,10 @@
 },
 {
   "name":"org.springframework.boot.context.properties.NestedConfigurationProperty",
+  "allDeclaredMethods":true
+},
+{
+  "name":"org.springframework.boot.context.properties.bind.Name",
   "allDeclaredMethods":true
 },
 {
@@ -1744,6 +2174,30 @@
 },
 {
   "name":"org.springframework.boot.validation.beanvalidation.MethodValidationExcludeFilter",
+  "allPublicMethods":true
+},
+{
+  "name":"org.springframework.boot.validation.beanvalidation.MethodValidationExcludeFilter$$Lambda$1144/0x0000000840636040",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allPublicMethods":true
+},
+{
+  "name":"org.springframework.boot.validation.beanvalidation.MethodValidationExcludeFilter$$Lambda$1146/0x000000084064d840",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allPublicMethods":true
+},
+{
+  "name":"org.springframework.boot.validation.beanvalidation.MethodValidationExcludeFilter$$Lambda$1147/0x0000000840636c40",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allPublicMethods":true
+},
+{
+  "name":"org.springframework.boot.validation.beanvalidation.MethodValidationExcludeFilter$$Lambda$1211/0x0000000840676040",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
   "allPublicMethods":true
 },
 {
@@ -2268,6 +2722,10 @@
   "allDeclaredMethods":true
 },
 {
+  "name":"org.springframework.web.bind.annotation.GetMapping",
+  "allDeclaredMethods":true
+},
+{
   "name":"org.springframework.web.bind.annotation.Mapping",
   "allDeclaredMethods":true
 },
@@ -2277,6 +2735,14 @@
 },
 {
   "name":"org.springframework.web.bind.annotation.RequestMethod[]"
+},
+{
+  "name":"org.springframework.web.bind.annotation.ResponseBody",
+  "allDeclaredMethods":true
+},
+{
+  "name":"org.springframework.web.bind.annotation.RestController",
+  "allDeclaredMethods":true
 },
 {
   "name":"org.springframework.web.client.RestTemplate"
@@ -2661,14 +3127,60 @@
   "name":"reactor.netty.http.server.HttpServer"
 },
 {
+  "name":"scala.Enumeration",
+  "allDeclaredFields":true
+},
+{
+  "name":"scala.Function1",
+  "allDeclaredMethods":true,
+  "allPublicMethods":true
+},
+{
+  "name":"scala.Tuple2[]"
+},
+{
+  "name":"scala.reflect.ScalaSignature",
+  "allDeclaredMethods":true
+},
+{
+  "name":"sun.management.ManagementFactoryHelper",
+  "fields":[{"name":"jvm"}],
+  "methods":[{"name":"getHotspotRuntimeMBean","parameterTypes":[] }]
+},
+{
+  "name":"sun.management.VMManagementImpl",
+  "methods":[{"name":"getInternalCounters","parameterTypes":["java.lang.String"] }]
+},
+{
+  "name":"sun.management.counter.AbstractCounter",
+  "methods":[{"name":"getName","parameterTypes":[] }]
+},
+{
+  "name":"sun.management.counter.perf.PerfLongCounter",
+  "methods":[{"name":"getValue","parameterTypes":[] }]
+},
+{
+  "name":"sun.management.counter.perf.PerfStringCounter"
+},
+{
   "name":"sun.misc.Unsafe",
   "fields":[{"name":"theUnsafe"}],
   "methods":[
     {"name":"allocateInstance","parameterTypes":["java.lang.Class"] }, 
     {"name":"copyMemory","parameterTypes":["java.lang.Object","long","java.lang.Object","long","long"] }, 
+    {"name":"getAndAddLong","parameterTypes":["java.lang.Object","long","long"] }, 
+    {"name":"getAndSetObject","parameterTypes":["java.lang.Object","long","java.lang.Object"] }, 
     {"name":"invokeCleaner","parameterTypes":["java.nio.ByteBuffer"] }, 
     {"name":"objectFieldOffset","parameterTypes":["java.lang.reflect.Field"] }, 
     {"name":"putBoolean","parameterTypes":["java.lang.Object","long","boolean"] }
   ]
+},
+{
+  "name":"sun.security.provider.NativePRNG",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"sun.security.provider.SHA",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
 }
 ]

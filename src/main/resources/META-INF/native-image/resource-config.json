@@ -1,12 +1,17 @@
 {
   "resources":{
   "includes":[
+    {"pattern":"\\QMETA-INF/native/libnetty_transport_native_epoll_x86_64.so\\E"}, 
+    {"pattern":"\\QMETA-INF/services/com.twitter.finagle.FinagleInit\\E"}, 
+    {"pattern":"\\QMETA-INF/services/com.twitter.finagle.util.ServiceLoadedTimer\\E"}, 
     {"pattern":"\\QMETA-INF/services/org.junit.platform.engine.TestEngine\\E"}, 
     {"pattern":"\\QMETA-INF/spring-autoconfigure-metadata.properties\\E"}, 
     {"pattern":"\\QMETA-INF/spring.components\\E"}, 
     {"pattern":"\\QMETA-INF/spring.factories\\E"}, 
     {"pattern":"\\Qapplication.properties\\E"}, 
     {"pattern":"\\Qcom/example/demo/DemoApplication.class\\E"}, 
+    {"pattern":"\\Qcom/example/demo/GreetingController.class\\E"}, 
+    {"pattern":"\\Qcom/twitter/finagle-core/build.properties\\E"}, 
     {"pattern":"\\Qmockito-extensions/org.mockito.plugins.MockResolver\\E"}, 
     {"pattern":"\\Qorg/json/JSONObject.class\\E"}, 
     {"pattern":"\\Qorg/slf4j/impl/StaticLoggerBinder.class\\E"}, 
@@ -131,6 +136,10 @@
     {"pattern":"\\Qorg/springframework/context/annotation/ImportBeanDefinitionRegistrar.class\\E"}, 
     {"pattern":"\\Qorg/springframework/core/Ordered.class\\E"}, 
     {"pattern":"\\Qorg/springframework/core/annotation/Order.class\\E"}, 
+    {"pattern":"\\Qorg/springframework/web/bind/annotation/Mapping.class\\E"}, 
+    {"pattern":"\\Qorg/springframework/web/bind/annotation/RequestMapping.class\\E"}, 
+    {"pattern":"\\Qorg/springframework/web/bind/annotation/ResponseBody.class\\E"}, 
+    {"pattern":"\\Qorg/springframework/web/bind/annotation/RestController.class\\E"}, 
     {"pattern":"\\Qorg/springframework/web/context/ServletContextAware.class\\E"}, 
     {"pattern":"\\Qorg/springframework/web/servlet/config/annotation/DelegatingWebMvcConfiguration.class\\E"}, 
     {"pattern":"\\Qorg/springframework/web/servlet/config/annotation/WebMvcConfigurationSupport$NoOpValidator.class\\E"}, 

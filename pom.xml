@@ -24,10 +24,10 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
-		<dependency>
-			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-webflux</artifactId>
-		</dependency>
+<!--		<dependency>-->
+<!--			<groupId>org.springframework.boot</groupId>-->
+<!--			<artifactId>spring-boot-starter-webflux</artifactId>-->
+<!--		</dependency>-->
 
 		<dependency>
 			<groupId>io.netty</groupId>
@@ -42,7 +42,7 @@
 			<exclusions>
 				<exclusion>
 					<groupId>io.netty</groupId>
-					<artifactId>netty-tcnative-boringssl-static</artifactId>
+					<artifactId>netty-tcnative-boringssl-static</artifactId> <!-- Having the native ssl stuff on the CP forces some early initialisation. -->
 				</exclusion>
 			</exclusions>
 		</dependency>
