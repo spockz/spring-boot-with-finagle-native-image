@@ -1,0 +1,19 @@
+{
+  "rules": [
+    {
+      "excludeClasses": "org.springframework.boot.test.**"
+    },
+    {
+      "excludeClasses": "org.springframework.test.**"
+    },
+    {
+      "excludeClasses": "org.springframework.boot.test.context.SpringBootTest"
+    },
+    {
+      "excludeClasses": "org.junit.**"
+    },
+    {
+      "excludeClasses": "org.mockito.**"
+    }
+  ]
+}
