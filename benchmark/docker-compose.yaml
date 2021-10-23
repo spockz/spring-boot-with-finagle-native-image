@@ -1,0 +1,66 @@
+version: "3.5"
+services:
+  demo-jre:
+    image: gcr.io/distroless/java:11
+    volumes:
+      - ../target/demo-0.0.1-SNAPSHOT.jar:/app/app.jar:ro
+    working_dir: "/app"
+    command: ["app.jar"]
+    ports:
+      - "9080:8080"
+
+
+  demo-native:
+    image: docker.io/library/demo:0.0.1-SNAPSHOT
+    ports:
+      - "8080:8080"
+
+  bench-demo-jre:
+    depends_on:
+      - demo-jre
+    build:
+      context: ""
+      dockerfile: Dockerfile.vegeta
+    command:
+      - sh
+      - -c
+      - vegeta attack -duration=25s -rate=500 -targets /targets | tee /output/jre.bin | vegeta report
+    volumes:
+      - ./output:/output
+      - ./vegeta-targets-jre:/targets
+
+  bench-demo-native:
+    depends_on:
+      - demo-native
+    build:
+      context: ""
+      dockerfile: Dockerfile.vegeta
+    command:
+      - sh
+      - -c
+      - vegeta attack -duration=25s -rate=500 -targets /targets | tee /output/native.bin | vegeta report
+    volumes:
+      - ./output:/output
+      - ./vegeta-targets-native:/targets
+
+  zookeeper:
+    image: confluentinc/cp-zookeeper:latest
+    environment:
+      ZOOKEEPER_CLIENT_PORT: 2181
+      ZOOKEEPER_TICK_TIME: 2000
+    ports:
+      - 22181:2181
+
+  kafka:
+    image: confluentinc/cp-kafka:latest
+    depends_on:
+      - zookeeper
+    ports:
+      - 29092:29092
+    environment:
+      KAFKA_BROKER_ID: 1
+      KAFKA_ZOOKEEPER_CONNECT: zookeeper:2181
+      KAFKA_ADVERTISED_LISTENERS: PLAINTEXT://kafka:9092,PLAINTEXT_HOST://localhost:29092
+      KAFKA_LISTENER_SECURITY_PROTOCOL_MAP: PLAINTEXT:PLAINTEXT,PLAINTEXT_HOST:PLAINTEXT
+      KAFKA_INTER_BROKER_LISTENER_NAME: PLAINTEXT
+      KAFKA_OFFSETS_TOPIC_REPLICATION_FACTOR: 1

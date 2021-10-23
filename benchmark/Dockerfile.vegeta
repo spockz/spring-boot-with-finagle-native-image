@@ -1,0 +1,3 @@
+FROM golang:latest
+
+RUN go install github.com/tsenart/vegeta@latest
